@@ -29,7 +29,7 @@ body{
     color:#7e7d7d;
     font-family: "Poppins", sans-serif;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     padding: 8px 22px 11px 20px;
 
 }
@@ -171,28 +171,159 @@ body{
     color: #999999;
     font-family: 'Poppins', helvetica;
     letter-spacing: 0.5px;
+    padding-bottom: 30px;
 }
 /*about*/
 
 
+/*portfolio*/
 
+.portfolio h2{
+    margin-top: 80px;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: #292929;
+    font-weight: bold;
+}
+.portfolio li{
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 25px 8px 25px;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 10;
+    text-transform: uppercase;
+    color: #999999;
+    background-color: #faf7f7;
+    margin-bottom: 5px;
+    list-style: none;
+    transition: 0.3s ease-in-out;
+}
+.portfolio li:hover{
+    color: #b8a07e;
+}
+.custom-card-2{
+    border: none;
+    margin-bottom: 20px;
+}
+.custom-card-2 .card-body{
+    padding: 0px;
+    overflow: hidden;
+    position: relative;
+}
+.custom-card-2 .card-body .card-image-wrapper{
+    overflow: hidden;
+}
+.custom-card-2 .card-text-wrapper{
+    position: absolute;
+    bottom: -85px;
+    left: 20px;
+    color: #999999;
+    z-index: 2;
+    transition: all 0.5s;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    width: 85%;
+    
+}
+
+.custom-card-2:hover .card-text-wrapper{
+    bottom: 20px;
+}
+/*portfolio*/
+
+
+/*journall*/
+
+.journal{
+    margin: 20px;
+    
+}
+.journal h2{
+    padding: 27px 0 68px 0;
+    margin-top: 50px;
+}
+.custom-card-3{
+    border: none;
+    margin-bottom: 20px;
+    background: #faf7f7;
+}
+.custom-card-3 .card-body{
+    padding: 0px;
+    overflow: hidden;
+    position: relative;
+}
+.custom-card-3 .card-body .card-image-wrapper{
+    overflow: hidden;
+
+}
+.custom-card-3 .card-text-wrapper{
+    padding: 27px 36px 9px 0px;
+    cursor: pointer;
+    
+}
+.custom-card-3 .card-text-wrapper h5{
+    transition: all 0.5s ease-in-out;
+    color: #292929;
+    padding-bottom: 5px;
+
+}
+.custom-card-3 .card-text-wrapper h5:hover{
+    color: #b8a07e;
+}
+.custom-card-3 .card-text-wrapper p{
+    color:#999999;
+    margin-bottom: 50px;
+}
+
+/*journall*/
+
+
+/*form */
+.form{
+    padding-top: 80px;
+    background: #fff;
+}
+
+.form h2{
+font-size: 32px;
+margin-bottom: 30px;
+font-weight: 600;
+}
+.form ul li{
+    color:#999999;
+    list-style: none;
+    line-height: 28px;
+    font-family: 'Poppins', helvetica;
+    
+}
+
+.form ul{
+    padding: 0;
+}
+/*form */
+
+
+/*foooter*/
 .footer{
     background: #f7f7f7;
 padding-bottom: 50px;
 padding-top: 50px;
 }
-.social-items i{
-    color: #7e7d7d;
+.socials-media i{
+    color: #999999;
     font-size: 25px;
     margin-left: 15px;
     line-height: 10px;
-    background-color: none;
+    margin-top: 20px;
+    background-color:#faf7f7;
+    
 }
-.footer{
-    background-color: #e9e8e6;
-    padding: 30px 0;
-    color: #222;
-    font-size: 14px;
+.socials-media ul li{
+    list-style: none;
+    text-decoration: none;
 }
 .footer p{
     margin: 0;
@@ -200,3 +331,5 @@ padding-top: 50px;
 .footer a{
     padding: 0;
 }
+
+/*foooter*/
