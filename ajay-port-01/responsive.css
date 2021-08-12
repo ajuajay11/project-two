@@ -56,8 +56,9 @@ Extra extra large	xxl	≥1400px
 @media (min-width:419px) {
     .hero-image {
         position: relative;
-        width: 450px;
-        top: -250px;
+        width: 447px;
+        top: -300px;
+        right: 20px;
     }
 } 
 
@@ -104,5 +105,16 @@ Extra extra large	xxl	≥1400px
     }
     .section-two {
         top: 543px;
+    }
+    .writ-head{
+        font-size: 40px;
+        color: #aaa;
+    }
+    .blink{
+        width: 6px;
+        height: 40px;
+        background: #aaa; 
+        animation: blink 0.5s ease-in-out infinite;
+        margin: 5px 8px;
     }
 }
