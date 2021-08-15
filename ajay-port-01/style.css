@@ -5,6 +5,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: Playfair sans-serif;
     top: 0;
     left: 0;
     right: 0;
@@ -66,6 +67,7 @@ body{
 }
 .hero-para{
     padding: 100px 0;
+    font-family: Playfair sans-serif;
 }
 .hero-image {
     position: relative;
@@ -136,4 +138,8 @@ body{
 .section-two-head{
     border-bottom: 2px solid rgb(42, 147, 189);
     padding-bottom: 20px;
+}
+
+.section-two-hero{
+    padding-top: 33px;
 }

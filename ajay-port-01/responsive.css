@@ -49,7 +49,7 @@ Extra extra large	xxl	≥1400px
     }
     .blink {
         width: 3px;
-        height: 20px;
+        height: 16px;
     }
 }
 
@@ -79,7 +79,7 @@ Extra extra large	xxl	≥1400px
     .hero-image {
         position: relative;
         width: 450px;
-        top: -338px;
+        top: -260px;
         right: 30px;
     }
    
