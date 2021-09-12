@@ -5,7 +5,8 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: Playfair sans-serif;
+    font-family: 'Hina Mincho', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     top: 0;
     left: 0;
     right: 0;
@@ -31,6 +32,7 @@ body{
 }
 .navigations ul li a{
     color: #aaa;
+    letter-spacing: 4px;
 }
 .navigations ul li a:hover{
     color: #2a93bf;
@@ -97,14 +99,14 @@ body{
     margin: 5px 8px;
 }
 .typing{
-    color:#2a93bf;
+    color:#7c94b0;
    
 }
 .white{
     color:#aaa;
 }
 .white-one{
-    color:rgb(42, 147, 189);
+    color:#7c94b0;
 }
 .writ-head{
     font-size: 40px;
@@ -112,7 +114,7 @@ body{
 }
 @keyframes blink {
     0%{
-        background: rgb(42, 147, 189);
+        background: #7c94b0;
     }
     50%{
         background: #aaa;
@@ -136,10 +138,33 @@ body{
     z-index: 99;
 }
 .section-two-head{
-    border-bottom: 2px solid rgb(42, 147, 189);
+    border-bottom: 2px solid #7c94b0;
     padding-bottom: 20px;
 }
 
-.section-two-hero{
+.section-02{
     padding-top: 33px;
+    
+}
+.para-02{
+ font-size: 30px;
+ color: rgb(8, 7, 7);
+    background-color: #7c94b0;
+ padding:20px;
+ margin: 180px 0;
+ border: 12px solid #383f4b;
+
+}
+.footer{
+    background-color: #000;
+    color: #999;
+        position: relative;
+        z-index: 99;
+        padding: 25px;
+        top: 543px;
+}
+.btn-link {
+    font-weight: 400;
+    color: #999;
+    text-decoration: none;
 }

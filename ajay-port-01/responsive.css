@@ -51,6 +51,7 @@ Extra extra large	xxl	≥1400px
         width: 3px;
         height: 16px;
     }
+    
 }
 
 @media (min-width:419px) {
@@ -90,6 +91,19 @@ Extra extra large	xxl	≥1400px
     .social{
         display:none;
     }
+    .para-02 {
+        font-size: 25px;
+        padding: 14px;
+        color: #999;
+    }
+    .footer {
+        background-color: #000;
+        color: #999;
+        position: relative;
+        z-index: 99;
+        padding: 25px;
+        top: 734px;
+    }
    
 } 
 @media (min-width:991px) {
@@ -117,5 +131,9 @@ Extra extra large	xxl	≥1400px
         background: #aaa; 
         animation: blink 0.5s ease-in-out infinite;
         margin: 5px 8px;
+    }
+    .section-two{
+        padding-bottom: 70px;
+        color: #000;
     }
 }

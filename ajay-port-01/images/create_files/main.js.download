@@ -1,0 +1,32 @@
+function validate() {
+	console.log("hello");
+	if (document.getElementById("emp_name").value=="") 
+    {
+        alert ("enter youe name");
+        return false;
+    }
+    if (document.getElementById("emp_age").value=="") {
+        alert ("fhgghjghjg");
+        return false;
+    }
+    if (document.getElementById("emp_gender").value=="") {
+        alert ("fhgghjghjg");
+        return false;
+    }
+    if (document.getElementById("emp_address").value=="") {
+        alert ("fhgghjghjg");
+        return false;
+    }
+    document.getElementById("emp_details").submit();
+    return true;
+
+}
+
+
+function delete_record(id) {
+    if (confirm("are you delete this record")) {
+        windows.location.href="delete.php?id="+id;
+    }
+}
+
+
