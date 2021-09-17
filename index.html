@@ -13,71 +13,85 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,200;1,400;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css">
     <title>Selling-Website by Colorlib</title>
   </head>
   <body>
     <!-- HEADER SECTION STARTS -->
-    <div class="header top-bar py-3 bg-light">
+    <div class="header">
       <div class="container">
         <div class="row">
-          <div class="col-6">
-            <ul class="nav social">
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="icofont-facebook"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="icofont-instagram"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="icofont-twitter"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="icofont-linkedin"></i></a>
-              </li>
-              
-            </ul>
+          <div class="col-lg-12 ">
+            <div class="social-full justify-content-between d-flex bd-highlight mb-3">
+              <div class="social-nav">
+                <ul class="nav social">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="icofont-facebook"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="icofont-instagram"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="icofont-twitter"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="icofont-linkedin"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="phone">
+                <i class="icofont-phone"></i><a href="tel://#">(+1) 234 5678 9101 </a>
+                <i class="icofont-email"></i> <a href="#">shop@yourdomain.com</a></div>
+             </div>
+            </div>
+            
           </div>
-          <div class="col-6">
-           <div class="phone text-end">
-             <a href="tel://#"><i class="icofont-phone"></i>(+1) 234 5678 9101 </a>
-            <a href="#"><i class="icofont-email"></i>shop@yourdomain.com</a></div>
-          </div>
-        </div>
       </div>
     </div>
     <div class="sub-header" id="navbar">
       <div class="container">
         <div class="row">
-          <div class="col-4">
-            <div class="logo">
-              <h1>Selling<span>.</span> </h1>
+          <div class="col-lg-4 col-8">
+            <div class="logo d-flex">
+              <h1>Selling  </h1><div class="dott"></div>
             </div>
           </div>
-          <div class="col-8">
+          <div class="col-lg-8 col-4 m-flex">
+            <div class="navigationham">
+              <ul class="nav justify-content-end ">
+                   <li class="nav-items mobile-toggle-trigger">
+                       <a class="nav-link" href="#"><i class="icofont-navigation-menu"></i></a>
+                   </li>
+               </ul>
+            </div>
             <div class="navigation">
-            <ul class="nav justify-content-evenly">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Products</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Special</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" >Testimonials</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
+              <ul class="nav justify-content-evenly m-nav">
+                <li class="nav-item listone">
+                  <a class="nav-link close-btn" href="#"><i class="icofont-close"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#products">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#section-two">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#section-three">Special</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#section-four" >Testimonials</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#section-five">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#section-six">Contact</a>
+                </li>
+              </ul>
+              
             </div>
           </div>
         </div>
@@ -87,24 +101,25 @@
 
     <!--Hero section staarts-->
 
-    <div class="fixed-bg">
+    <div class="transparent-image-two" id="transparent-one">
       <div class="container">
         <div class="row">
-          <div class="col-12">
-            <div class="hero-head">
-              <h2>Shop With Us</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laboriosam </br>assumenda ea quo cupiditate facere deleniti fuga
-                official.
-              </p>
-            </div>
-            <div class="shop">
-              <a href="#"class="button-one">SHOP NOW</a>
-              <a href="#"class="button-two">CLUB MEMBERSHIP</a>
+          <div class="col-md-8 col-12">
+            <div class="hero">
+              <div class="hero-head">
+                <h2>Shop With Us</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam assumenda ea quo cupiditate facere deleniti fuga
+                  official.
+                </p>
+              </div>
+              <div class="shop flexing-button-one">
+                <a href="#"class="button-one">SHOP NOW</a>
+                <a href="#"class="button-2">CLUB MEMBERSHIP</a>
+              </div>
             </div>
           </div>
-          <div class="col-6"></div>
         </div>
       </div>
     </div>
@@ -113,13 +128,13 @@
 
     <!--section one starts-->
 
-    <div class="portfolio">
+    <div class="portfolio " id="products">
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <p class="text-center">POPULAR PRODUCTS</p>
-            <h2 class="text-center">Our Products</h2>
-            <p class="text-center">
+            <p class="portfolio-sub-title text-center">POPULAR PRODUCTS</p>
+            <h2 class="text-center section-title">Our Products</h2> 
+            <p class="text-center port-para">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Repudiandae nostrum natus excepturi fuga ullam accusantium vel ut
               eveniet aut consequatur laboriosam ipsam.
@@ -131,45 +146,19 @@
             <div class="card custom-card-2">
               <div class="card-body">
                   <div class="card-image-wrapper">
-                      <img src="./images/1.webp" class="card-img" alt="yoo">
+                      <img src="./images/port.webp" class="card-img" alt="yoo">
                   </div>
               </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 image-pad">
-            <div class="card custom-card-2">
-              <div class="card-body">
-                  <div class="card-image-wrapper">
-                      <img src="./images/2.webp" class="card-img" alt="yoo">
-                  </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 image-pad">
-            <div class="card custom-card-2">
-              <div class="card-body">
-                  <div class="card-image-wrapper">
-                      <img src="./images/1.webp" class="card-img" alt="yoo">
-                  </div>
-                  
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 image-pad">
-            <div class="card custom-card-2">
-              <div class="card-body">
-                  <div class="card-image-wrapper">
-                      <img src="./images/2.webp" class="card-img" alt="yoo">
-                  </div>
-                  
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 image-pad">
-            <div class="card custom-card-2">
-              <div class="card-body">
-                <div class="card-image-wrapper">
-                  <img src="./images/2.webp" class="card-img" alt="one" />
+              <div class="cardcont">
+                <p class="card-color">Wild West Hoodie</p>
+                <div class="star d-flex">
+                  <a href="#"><i class="icofont-star star-one"></i>5.0</a>
+                  <a href="#"><i class="icofont-heart"></i>2.9</a>
+                </div>
+                <span class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
+                <div class="buttons">
+                  <a class="card-btn" href="#">CART</a>
+                  <a class="card-btn-1" href="#">VIEW</a>
                 </div>
               </div>
             </div>
@@ -177,8 +166,106 @@
           <div class="col-12 col-md-6 col-lg-4 image-pad">
             <div class="card custom-card-2">
               <div class="card-body">
+                  <div class="card-image-wrapper">
+                      <img src="./images/man111.webp" class="card-img" alt="yoo">
+                  </div>
+              </div>
+              <div class="cardcont">
+                <p class="card-color">Wild West Hoodie</p>
+                <div class="star d-flex">
+                  <a href="#"><i class="icofont-star star-one"></i>5.0</a>
+                  <a href="#"><i class="icofont-heart"></i>2.9</a>
+                </div>
+                <span class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
+                <div class="buttons">
+                  <a class="card-btn" href="#">CART</a>
+                  <a class="card-btn-1" href="#">VIEW</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 image-pad">
+            <div class="card custom-card-2">
+              <div class="card-body">
+                  <div class="card-image-wrapper">
+                      <img src="./images//girl.webp" class="card-img" alt="yoo">
+                  </div>
+                  
+              </div>
+              <div class="cardcont">
+                <p class="card-color">Wild West Hoodie</p>
+                <div class="star d-flex">
+                  <a href="#"><i class="icofont-star star-one"></i>5.0</a>
+                  <a href="#"><i class="icofont-heart"></i>2.9</a>
+                </div>
+                <span class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
+                <div class="buttons">
+                  <a class="card-btn" href="#">CART</a>
+                  <a class="card-btn-1" href="#">VIEW</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 image-pad">
+            <div class="card custom-card-2">
+              <div class="card-body">
+                  <div class="card-image-wrapper">
+                      <img src="./images/1.webp" class="card-img" alt="yoo">
+                  </div>
+                  
+              </div>
+              <div class="cardcont">
+                <p class="card-color">Wild West Hoodie</p>
+                <div class="star d-flex">
+                  <a href="#"><i class="icofont-star star-one"></i>5.0</a>
+                  <a href="#"><i class="icofont-heart"></i>2.9</a>
+                </div>
+                <span class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
+                <div class="buttons">
+                  <a class="card-btn" href="#">CART</a>
+                  <a class="card-btn-1" href="#">VIEW</a>
+                </div>
+              </div>
+            </div>
+            </div>
+          <div class="col-12 col-md-6 col-lg-4 image-pad">
+            <div class="card custom-card-2">
+              <div class="card-body">
                 <div class="card-image-wrapper">
                   <img src="./images/2.webp" class="card-img" alt="one" />
+                </div>
+              </div>
+              <div class="cardcont">
+                <p class="card-color">Wild West Hoodie</p>
+                <div class="star d-flex">
+                  <a href="#"><i class="icofont-star star-one"></i>5.0</a>
+                  <a href="#"><i class="icofont-heart"></i>2.9</a>
+                </div>
+                <span class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
+                <div class="buttons">
+                  <a class="card-btn" href="#">CART</a>
+                  <a class="card-btn-1" href="#">VIEW</a>
+                </div>
+              </div>
+            </div>
+            </div>
+          <div class="col-12 col-md-6 col-lg-4 image-pad">
+            <div class="card custom-card-2">
+              <div class="card-body">
+                <div class="card-image-wrapper">
+                  <img src="./images/shoe.webp" class="card-img" alt="one" />
+                </div>
+              </div>
+              <div class="cardcont">
+                <p class="card-color">Wild West Hoodie</p>
+                <div class="star d-flex">
+                  <a href="#"><i class="icofont-star star-one"></i>5.0</a>
+                  <a href="#"><i class="icofont-heart"></i>2.9</a>
+                </div>
+                <span class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
+                <div class="buttons">
+                  <a class="card-btn" href="#">CART</a>
+                  <a class="card-btn-1" href="#">VIEW</a>
                 </div>
               </div>
             </div>
@@ -189,319 +276,379 @@
 
     <!--section one ends-->
 
-    <div class="fixed-bg-2">
+    <div class="transparent-image">
       <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="fixed-head text-center">
-              <h3>Get notified on each updates.</h3>
-            </div>
-            <form>
-              <div class="mb-3 d-flex">
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"><button type="submit">Submit</button>
-              </div>
-              <div id="emailHelp" class="form-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat commodi veniam doloremque ducimus tempora.</div>
-            </form>
-        </div>
+        <div class="row align-items-center justify-content-center">
+          <form class="col-md-7" method="post">
+          <h2 class="text-center">Get notified on each updates.</h2>
+          <div class="d-flex mb-4">
+          <input type="text" class="form-control rounded-0" placeholder="Enter your email address">
+          <a class="subscribe" href="#">SUBSCRIBE</a>
+          </div>
+          <p class="text-center white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat commodi veniam doloremque ducimus tempora.</p>
+          </form>
+          </div>
       </div>
     </div>
 
     <!----portfolio-two-->
-    <div class="portfolio-two">
+
+    <div class="portfolio-two bg-light" id="section-two">
       <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <p class="text-center">POPULAR PRODUCTS</p>
-            <h2 class="text-center">Our Products</h2>
-            <p class="text-center">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae nostrum natus excepturi fuga ullam accusantium vel ut
-              eveniet aut consequatur laboriosam ipsam.
-            </p>
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-6 text-center">
+            <h3 class="portfolio-sub-title">Awesome Products</h3>
+            <h2 class="section-title mb-3">Featured Products</h2>
+            <p class="port-para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nostrum natus excepturi fuga ullam accusantium vel ut eveniet aut consequatur laboriosam ipsam.</p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="portfolio-hero d-flex">
-              <div class="col-6">
-               <div class="image">
-                <img class="img-fluid" src="./images/port.webp" alt="">
-               </div>
-              </div>
-              <div class="col-6">
-                <p>About This Product
-                  Et tempora id nostrum saepe amet doloribus deserunt totam officiis cupiditate asperiores quasi accusantium voluptatum dolorem quae sapiente voluptatem ratione odio iure blanditiis earum fuga molestiae alias dicta perferendis inventore!
-                  
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus soluta assumenda sed optio, error at?
-                  
-                  Price:
-                  $269.00 $69.00</p>
-              </div>
+        <div class="bg-white py-4 mb-4">
+          <div class="row mx-4 my-4 product-item-2 align-items-start">
+            <div class="col-md-6 mb-5 mb-md-0">
+              <img src="images/port.webp" alt="Image" class="img-fluid">
             </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="portfolio-hero d-flex">
-              <div class="col-6">
-                <p>About This Product
-                  Et tempora id nostrum saepe amet doloribus deserunt totam officiis cupiditate asperiores quasi accusantium voluptatum dolorem quae sapiente voluptatem ratione odio iure blanditiis earum fuga molestiae alias dicta perferendis inventore!
-                  
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus soluta assumenda sed optio, error at?
-                  
-                  Price:
-                  $269.00 $69.00</p>
+            <div class="col-md-5 ml-auto portfolio-product">
+              <div class="number">01</div>
+              <h3 class="mb-4 font-weight-bold port-bold">About This Product</h3>
+              <p class="mb-4 port-para-two">Et tempora id nostrum saepe amet doloribus deserunt totam officiis cupiditate asperiores quasi accusantium voluptatum dolorem quae sapiente voluptatem ratione odio iure blanditiis earum fuga molestiae alias dicta perferendis inventore!</p>
+              <p class="port-para-two">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus soluta assumenda sed optio, error at?</p>
+              <div class="mb-4">
+                <h3 class="text-black font-weight-bold h5">Price:</h3>
+                <div class="price"><del class="mr-2">$269.00</del> $69.00</div>
               </div>
-              <div class="col-6">
-               <div class="image">
-                <img class="img-fluid" src="./images/shoe.webp" alt="">
-               </div>
-              </div>
+              <div class="flexing-button">
+                
+                <a class="card-btn-2" href="#">view details</a>
+                <a class="card-btn-3" href="#">Add to cart</a>
+              
+            </div>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="site-section" id="about-section">
-            <div class="container">
-            <div class="row align-items-lg-center">
-            <div class="col-md-8 mb-5 col-lg-0 position-relative">
-            <img src="./images/chair.webp" class="img-fluid" alt="Image">
-            <!-- <div class="portfolio-hero-two">
-             <span class="portfolio-two-text">Trusted Merchant</span>
-            <span class="caption">for 50 years</span> -->
-            <!-- </div> -->
+        <div class="bg-white py-4">
+          <div class="row mx-4 my-4 product-item-2 align-items-start">
+            <div class="col-md-6 mb-5 mb-md-0 order-1 order-md-2">
+              <img src="images/shoe.webp" alt="Image" class="img-fluid">
             </div>
-            <div class="col-md-3 ml-auto">
-            <h3 class="section-sub-title">Merchant Company</h3>
-            <h2 class="section-title mb-3">About Us</h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui fuga ipsa, repellat blanditiis nihil, consectetur. Consequuntur eum inventore, rem maxime, nisi excepturi ipsam libero ratione adipisci alias eius vero vel!</p>
-            <p><a href="#" class="btn btn-black btn-black--hover rounded-0">Learn More</a></p>
+            <div class="col-md-5 mr-auto portfolio-product order-2 order-md-1">
+              <span class="number">02.</span>
+                <h3 class="text-black mb-4 font-weight-bold port-bold">About This Product</h3>
+                <p class="mb-4 port-para-two">Et tempora id nostrum saepe amet doloribus deserunt totam officiis cupiditate asperiores quasi accusantium voluptatum dolorem quae sapiente voluptatem ratione odio iure blanditiis earum fuga molestiae alias dicta perferendis inventore!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus soluta assumenda sed optio, error at?</p>
+              <div class="mb-4">
+                <h3 class="text-black font-weight-bold h5">Price:</h3>
+                <div class="price"><del class="mr-2">$269.00</del> $69.00</div>
+              </div>
+               <div class="flexing-button">
+                
+                  <a class="card-btn-2" href="#">view details</a>
+                  <a class="card-btn-3" href="#">Add to cart</a>
+                
+              </div>
             </div>
-            </div>
+          </div>
         </div>
       </div>
     </div>
 
+    <!--portfolio-two third section starts-->
+
+    <div class="portfolio-part">
+        <div class="container">
+          <div class="row align-items-lg-center">
+            <div class="col-md-8 mb-5 mb-lg-0 position-relative">
+              <img src="images/chair.webp" class="img-fluid" alt="Image">
+              <div class="merchant">
+                <span class="trusted">Trusted Merchant</span></br>
+                <span class="year">for 50 years</span>
+              </div>
+            </div>
+            <div class="col-md-3 ml-auto">
+              <h3 class="portfolio-sub-title">Merchant Company</h3>
+              <h2 class="section-title mb-3">About Us</h2>
+              <p class="mb-4 port-para-three">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui fuga ipsa, repellat blanditiis nihil, consectetur. Consequuntur eum inventore, rem maxime, nisi excepturi ipsam libero ratione adipisci alias eius vero vel!</p>
+              <p><a class="card-btn-3" href="#">LEARN MORE</a></p>
+            </div>
+          </div>
+        </div>
+    </div>
+      <!--portfolio-two third section ends-->
     <!----portfolio-two-->
 
 
     <!--portfolio-three-->
-    <div class="site-section border-bottom" id="team-section">
+    <div class="journal text-center">
       <div class="container">
-      <div class="row mb-5">
-      <div class="col-12 text-center">
-      <h3 class="section-sub-title">Team</h3>
-      <h2 class="section-title mb-3">Leadership</h2>
+          <div class="row">
+            <div class="col-12 text-center">
+              <h3 class="portfolio-sub-title">Team</h3>
+              <h2 class="section-title mb-3">Leadership</h2>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-6 col-lg-4">
+                  <div class="card custom-card-3">
+                      <div class="card-body">
+                          <div class="card-image-wrapper">
+                              <img src="./images/man3.webp" class="img-fluid" alt="one">
+                          </div>
+                          <div class="card-text-wrapper text-center">
+                              <h5 class="card-title">John Rooster
+                              </h5>
+                              <p class="card-text">CO-FOUNDER, PRESIDENT</p>
+                              <p class="text-body">Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
+
+                          </div>
+                          <div class="journal-navi d-flex justify-content-center">
+                            <ul class="nav journal-social">
+                              <li class="nav-item"><a href="#"><i class="icofont-facebook"></i></a></li>
+                              <li class="nav-item"><a href="#"><i class="icofont-twitter"></i></a></li>
+                              <li class="nav-item"><a href="#"><i class="icofont-instagram"></i></a></li>
+                              <li class="nav-item"><a href="#"><i class="icofont-linkedin"></i></a></li>
+    
+                            </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                  <div class="card custom-card-3">
+                    <div class="card-body">
+                      <div class="card-image-wrapper">
+                          <img src="./images/man.webp" class="img-fluid" alt="one">
+                      </div>
+                      <div class="card-text-wrapper text-center">
+                          <h5 class="card-title">John Rooster
+                          </h5>
+                          <p class="card-text">CO-FOUNDER, PRESIDENT</p>
+                          <p class="text-body">Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
+                      </div>
+                      <div class="journal-navi d-flex justify-content-center">
+                        <ul class="nav journal-social">
+                          <li class="nav-item"><a href="#"><i class="icofont-facebook"></i></a></li>
+                          <li class="nav-item"><a href="#"><i class="icofont-twitter"></i></a></li>
+                          <li class="nav-item"><a href="#"><i class="icofont-instagram"></i></a></li>
+                          <li class="nav-item"><a href="#"><i class="icofont-linkedin"></i></a></li>
+
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                  <div class="card custom-card-3">
+                    <div class="card-body">
+                      <div class="card-image-wrapper">
+                          <img src="./images/man2.webp" class="img-fluid" alt="one">
+                      </div>
+                      <div class="card-text-wrapper text-center">
+                          <h5 class="card-title">John Rooster
+                          </h5>
+                          <p class="card-text">CO-FOUNDER, PRESIDENT</p>
+                          <p class="text-body">Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
+
+                      </div>
+                      <div class="journal-navi d-flex justify-content-center">
+                        <ul class="nav journal-social">
+                          <li class="nav-item"><a href="#"><i class="icofont-facebook"></i></a></li>
+                          <li class="nav-item"><a href="#"><i class="icofont-twitter"></i></a></li>
+                          <li class="nav-item"><a href="#"><i class="icofont-instagram"></i></a></li>
+                          <li class="nav-item"><a href="#"><i class="icofont-linkedin"></i></a></li>
+
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
       </div>
-      </div>
-      <div class="row">
-      <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" >
-      <div class="person text-center">
-      <img src="images/man.webp" alt="Image" class="img-fluid rounded w-75 mb-3">
-      <h3>John Rooster</h3>
-      <p class="position text-muted">Co-Founder, President</p>
-      <p class="mb-4">Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
-      <!-- <ul class="ul-social-circle">
-      <li><a href="#"><span class="icon-facebook"></span></a></li>
-      <li><a href="#"><span class="icon-twitter"></span></a></li>
-      <li><a href="#"><span class="icon-linkedin"></span></a></li>
-      <li><a href="#"><span class="icon-instagram"></span></a></li>
-      </ul> -->
-      </div>
-      </div>
-      <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-      <div class="person text-center">
-      <img src="images/man2.webp" alt="Image" class="img-fluid rounded w-75 mb-3">
-      <h3>Tom Sharp</h3>
-      <p class="position text-muted">Co-Founder, COO</p>
-      <p class="mb-4">Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
-      <!-- <ul class="ul-social-circle">
-      <li><a href="#"><span class="icon-facebook"></span></a></li>
-      <li><a href="#"><span class="icon-twitter"></span></a></li>
-      <li><a href="#"><span class="icon-linkedin"></span></a></li>
-      <li><a href="#"><span class="icon-instagram"></span></a></li>
-      </ul> -->
-      </div>
-      </div>
-      <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-      <div class="person text-center">
-      <img src="images/man3.webp" alt="Image" class="img-fluid rounded w-75 mb-3">
-      <h3>Winston Hodson</h3>
-      <p class="position text-muted">Marketing</p>
-      <p class="mb-4">Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
-      <!-- <ul class="ul-social-circle">
-      <li><a href="#"><span class="icon-facebook"></span></a></li>
-      <li><a href="#"><span class="icon-twitter"></span></a></li>
-      <li><a href="#"><span class="icon-linkedin"></span></a></li>
-      <li><a href="#"><span class="icon-instagram"></span></a></li>
-      </ul> -->
-      </div>
-      </div>
-      </div>
-      </div>
-      </div>
-      </div>
+  </div>
 <!--portfolio-three ended-->
 
-<div class="fixed-bg-2">
+<div class="transparent-image-two">
   <div class="container">
     <div class="row align-items-center justify-content-center">
       <div class="col-md-7 text-center">
-      <h3 class="section-sub-title">Special Promo</h3>
-      <h3 class="section-title text-white mb-4">Summer Sale</h3>
-      <p class="mb-5 lead">Repudiandae nostrum natus excepturi fuga ullam accusantium vel ut eveniet aut consequatur laboriosam ipsam.</p>
-      <div id="date-countdown" class="mb-5"></div>
-      <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 mb-lg-0 mb-2 d-block d-sm-inline-block">Shop Now</a></p>
+        <h3 class="portfolio-sub-title">Special Promo</h3>
+        <h3 class="section-title text-white mb-4">Summer Sale</h3>
+        <p class="mb-5 lead text-white">Repudiandae nostrum natus excepturi fuga ullam accusantium vel ut eveniet aut consequatur laboriosam ipsam.</p>
+        <div class="date">
+          <div class="countdown-block"><div class="label">00</div>Weeks</div>
+          <div class="countdown-block"><div class="label">00</div>days</div>
+          <div class="countdown-block"><div class="label">00</div>hr</div>
+          <div class="countdown-block"><div class="label">00</div>min</div>
+          <div class="countdown-block"><div class="label">00</div>sec</div>
+        </div>
+        <p><a class="subscribe" href="#">SHOP NOW</a></p>
       </div>
-      </div>
+    </div>
   </div>
 </div>
 
+
 <!----OUR SERVICES starts-->
 
-<div class="site-section bg-light" id="services-section">
-  <div class="container">
-  <div class="row mb-5">
-     <div class="col-12 text-center">
-  <h3 class="section-sub-title">Our Services</h3>
-  <h2 class="section-title mb-3">We Offer Services</h2>
-  </div>
-  </div>
-  <div class="row align-items-stretch">
-  <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
-  <div class="unit-4 d-flex">
-  <div class="unit-4-icon mr-4"><span class="text-primary icon-pie_chart"></span></div>
-  <div>
-  <h3>Business Consulting</h3>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-  <p><a href="#">Learn More</a></p>
-  </div>
-  </div>
-  </div>
-  <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
-  <div class="unit-4 d-flex">
-  <div class="unit-4-icon mr-4"><span class="text-primary icon-backspace"></span></div>
-  <div>
-  <h3>Market Analysis</h3>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-  <p><a href="#">Learn More</a></p>
-  </div>
-  </div>
-  </div>
-  <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
-  <div class="unit-4 d-flex">
-  <div class="unit-4-icon mr-4"><span class="text-primary icon-av_timer"></span></div>
-  <div>
-  <h3>User Monitoring</h3>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-  <p><a href="#">Learn More</a></p>
-  </div>
-  </div>
-  </div>
-  <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="300">
-  <div class="unit-4 d-flex">
-  <div class="unit-4-icon mr-4"><span class="text-primary icon-beenhere"></span></div>
-  <div>
-  <h3>Seller Consulting</h3>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-  <p><a href="#">Learn More</a></p>
-  </div>
-  </div>
-  </div>
-  <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="400">
-  <div class="unit-4 d-flex">
-  <div class="unit-4-icon mr-4"><span class="text-primary icon-business_center"></span></div>
-  <div>
-  <h3>Financial Investment</h3>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-  <p><a href="#">Learn More</a></p>
-  </div>
-  </div>
-  </div>
-  <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="500">
-  <div class="unit-4 d-flex">
-  <div class="unit-4-icon mr-4"><span class="text-primary icon-cloud_done"></span></div>
-  <div>
-  <h3>Financial Management</h3>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-  <p><a href="#">Learn More</a></p>
-  </div>
-  </div>
-  </div>
-  </div>
-  </div>
+  <div class="services bg-light" id="section-three">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-12 text-center">
+          <h3 class="portfolio-sub-title">Our Services</h3>
+          <h2 class="section-title mb-3">We Offer Services</h2>
+        </div>
+      </div>
+      <div class="row align-items-stretch">
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+          <div class="unit-4 d-flex">
+            <div class="unit-4-icon mr-4"><i class="icofont-chart-pie"></i></div>
+              <div class="services-head">
+                <h3>Business Consulting</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                <p><a href="#">Learn More</a></p>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+          <div class="unit-4 d-flex">
+            <div class="unit-4-icon mr-4"><i class="icofont-square-left"></i></div>
+              <div class="services-head">
+                <h3>Marcket Analysis</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                <p><a href="#">Learn More</a></p>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+          <div class="unit-4 d-flex">
+            <div class="unit-4-icon mr-4"><i class="icofont-clock-time"></i></div>
+              <div class="services-head">
+                <h3>User Monitoring</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                <p><a href="#">Learn More</a></p>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+          <div class="unit-4 d-flex">
+            <div class="unit-4-icon mr-4"><i class="icofont-tick-boxed"></i></div>
+              <div class="services-head">
+                <h3>Seller Counsulting</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                <p><a href="#">Learn More</a></p>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+          <div class="unit-4 d-flex">
+            <div class="unit-4-icon mr-4"><i class="icofont-briefcase"></i></div>
+              <div class="services-head">
+                <h3>Financial Investment</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                <p><a href="#">Learn More</a></p>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+          <div class="unit-4 d-flex">
+            <div class="unit-4-icon mr-4"><i class="icofont-cloud-download"></i></div>
+              <div class="services-head">
+                <h3>Financial Management</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                <p><a href="#">Learn More</a></p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 <!----OUR SERVICES ends-->
 
 
 <!----OUR tastimonial starts-->
 
-<div class="testimonial page-section">
+<div class="testimonial" id="section-four">
   <div class="container">
-      <div class="row mb-5">
-          <div class="col-12">
-              <div class="col-12 text-center">
-                <h3 class="section-sub-title">People Says</h3>
-                <h2 class="section-title mb-3">Testimonials</h2>
-              </div>
-              <div class="col-12">
-                  <div class="card custom-card-2">
-                      <div class="card-body text-center">
-                          <img src="./images/man2.webp" class="card-img" alt="Matt">
-                          
-                      </div>
-                      <blockquote class="mb-3">
-                        <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-                      </blockquote>
-                        <p class="text-center"><strong>Kyle McDonald</strong></p>
-                  </div>
-              </div>
-          </div>
-      </div>
+   
+    <div class="row align-items-center justify-content-center">
+      <div class="col-md-7 text-center">
+        <h3 class="portfolio-sub-title">PEOPLE SAYS</h3>
+        <h2 class="section-title mb-3">Testimonials</h2>
+        <div class="slider">
+          <div class="slideshow-container">
 
+            <div class="mySlides">
+              <div class="slide-image">
+                <img src="./images/man.webp" class="img-fluid" alt="one">
+              </div>
+              <q>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima sequi molestias deleniti corporis ea porro? Corrupti quibusdam ad enim quas.</q>
+              <p class="author">Robert Anguliar</p>
+            </div>
+            <div class="mySlides">
+              <div class="slide-image">
+                <img src="./images/man2.webp" class="img-fluid" alt="one">
+              </div>
+              <q>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima sequi molestias deleniti corporis ea porro? Corrupti quibusdam ad enim quas.</q>
+              <p class="author">John Smits</p>
+            </div>
+            
+            <div class="mySlides">
+              <div class="slide-image">
+                <img src="./images/man3.webp" class="img-fluid" alt="one">
+              </div>
+              <q>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima sequi molestias deleniti corporis ea porro? Corrupti quibusdam ad enim quas.</q>
+              <p class="author">Rogers Spears</p>
+            </div>
+          </div>
+            
+            <div class="dot-container">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
-
 <!------testimonial ends-->
 
 
 
 <!------blog starts-->
 
-<div class="journal" id="journal">
+<div class="blogs" id="section-five">
   <div class="container">
-      
-      <div class="row">
-          <div class="col-12 col-lg-4">
-              <h2 class="text-center">JOURNAL</h2>
+      <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h3 class="portfolio-sub-title">BLOG</h3>
+            <h2 class="section-title mb-3">Blog Posts</h2>
           </div>
       </div>
       <div class="row">
         <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-          <div class="h-entry">
-           <img src="images/1.webp" alt="Image" class="img-fluid">
+          <div class="blog-load">
+           <img  class="img-fluid" src="images/1.webp" alt="Image">
             <h2 class="font-size-regular"><a href="#" class="text-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h2>
-          <div class="meta mb-4">Ham Brook <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
+              <div class="meta mb-4">Ham Brook <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a class="orange" href="#">News</a></div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-            <p><a href="#">Continue Reading...</a></p>
+            <p><a class="orange" href="#">Continue Reading...</a></p>
           </div>
         </div>
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-            <div class="h-entry">
-             <img src="images/2.webp" alt="Image" class="img-fluid">
+            <div class="blog-load">
+             <img class="img-fluid" src="images/shoe.webp" alt="Image">
               <h2 class="font-size-regular"><a href="#" class="text-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h2>
-            <div class="meta mb-4">Ham Brook <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
+               <div class="meta mb-4">Ham Brook <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a class="orange" href="#">News</a></div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-              <p><a href="#">Continue Reading...</a></p>
+              <p><a class="orange" href="#">Continue Reading...</a></p>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-            <div class="h-entry">
-             <img src="images/2.webp" alt="Image" class="img-fluid">
+            <div class="blog-load">
+             <img class="img-fluid" src="images/port.webp" alt="Image" >
               <h2 class="font-size-regular"><a href="#" class="text-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h2>
-            <div class="meta mb-4">Ham Brook <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
+               <div class="meta mb-4">Ham Brook <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a class="orange" href="#">News</a></div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-              <p><a href="#">Continue Reading...</a></p>
+              <p><a class="orange" href="#">Continue Reading...</a></p>
             </div>
           </div>
       </div>
@@ -515,55 +662,53 @@
 
 
 <!-------forms starts-->
-<div class="site-section bg-light" id="contact-section">
-  <div class="container">
-  <div class="row mb-5">
-  <div class="col-12 text-center">
-  <h3 class="section-sub-title">Contact Form</h3>
-  <h2 class="section-title mb-3">Get In Touch</h2>
-  </div>
-  </div>
-  <div class="row justify-content-center">
-  <div class="col-md-7 mb-5">
-  <form action="#" class="p-5 bg-white">
-  <h2 class="h4 text-black mb-5">Contact Form</h2>
-  <div class="row form-group">
-  <div class="col-md-6 mb-3 mb-md-0">
-  <label class="text-black" for="fname">First Name</label>
-  <input type="text" id="fname" class="form-control rounded-0">
-  </div>
-  <div class="col-md-6">
-  <label class="text-black" for="lname">Last Name</label>
-  <input type="text" id="lname" class="form-control rounded-0">
-  </div>
-  </div>
-  <div class="row form-group">
-  <div class="col-md-12">
-  <label class="text-black" for="email">Email</label>
-  <input type="email" id="email" class="form-control rounded-0">
-  </div>
-  </div>
-  <div class="row form-group">
-  <div class="col-md-12">
-  <label class="text-black" for="subject">Subject</label>
-  <input type="subject" id="subject" class="form-control rounded-0">
-  </div>
-  </div>
-  <div class="row form-group">
-  <div class="col-md-12">
-  <label class="text-black" for="message">Message</label>
-  <textarea name="message" id="message" cols="30" rows="7" class="form-control rounded-0" placeholder="Write your notes or questions here..."></textarea>
-  </div>
-  </div>
-  <div class="row form-group">
-  <div class="col-md-12">
-  <input type="submit" value="Send Message" class="btn btn-black rounded-0 py-3 px-4">
-  </div>
-  </div>
-  </form>
-  </div>
-  </div>
-  </div>
+  <div class="form-section bg-light" id="section-six">
+    <div class="row mb-5">
+      <div class="col-12 text-center">
+          <h3 class="portfolio-sub-title">Contact Form</h3>
+          <h2 class="section-title mb-3">Get In Touch</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-7 mb-5">
+        <form action="#" class="p-5 bg-white">
+          <h2 class="h4 text-black mb-5">Contact Form</h2>
+          <div class="row form-group">
+            <div class="col-md-6 mb-3 mb-md-0">
+              <label class="text-one" for="fname">First Name</label>
+              <input type="text" class="form-control rounded-0">
+            </div>
+            <div class="col-md-6">
+              <label class="text-black" for="lname">Last Name</label>
+              <input type="text" class="form-control rounded-0">
+            </div>
+          </div>
+          <div class="row form-group">
+            <div class="col-md-12">
+              <label class="text-black" for="email">Email</label>
+              <input type="email" class="form-control form-focus rounded-0">
+            </div>
+          </div>
+          <div class="row form-group">
+            <div class="col-md-12">
+              <label class="text-black" for="subject">Subject</label>
+              <input type="subject" id="subject" class="form-control rounded-0">
+            </div>
+          </div>
+          <div class="row form-group">
+            <div class="col-md-12">
+              <label class="text-black" for="message">Message</label>
+              <textarea name="message" id="message" cols="30" rows="7" class="form-control rounded-0" placeholder="Write your notes or questions here..."></textarea>
+            </div>
+          </div>
+          <div class="row form-group">
+            <div class="col-md-12">
+              <button class="buttons-one">send message</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
   </div>
 
 
@@ -571,55 +716,60 @@
 
 <!------FOOTER STARTS-->
 
-<footer class="site-footer bg-white">
+<footer class="footer bg-white">
   <div class="container">
-  <div class="row">
-  <div class="col-md-8">
-  <div class="row">
-  <div class="col-md-5">
-  <h2 class="footer-heading mb-4">About Us</h2>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+    <div class="row">
+      <div class="col-md-8">
+        <div class="row">
+          <div class="col-md-5">
+            <h2 class="footer-header mb-4">About Us</h2>
+            <p class="footer-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+          </div>
+          <div class="col-md-3 ">
+            <h2 class="footer-header mb-4">Quick Links</h2>
+            <ul class="list-unstyled footer-tag">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Testimonials</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h2 class="footer-header mb-4">Follow Us</h2>
+            <ul class="nav social-footer">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="icofont-facebook"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="icofont-instagram"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="icofont-twitter"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="icofont-linkedin"></i></a>
+              </li>
+              
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 ml-auto">
+        <h2 class="footer-header mb-4">Featured Product</h2>
+        <a href="#"><img src="images/shoe.webp" alt="Image" class="img-fluid mb-3"></a>
+        <h4 class="copy-head">Leather Brown Shoe</h4>
+        <strong class="text-black mb-3 d-inline-block">$60.00</strong>
+        <p><a class="card-btn-3" href="#">ADD TO CART</a></p>
+      </div>
+      </div>
+      <div class="row pt-5 mt-5 text-center">
+        <div class="col-md-12">
+          <div class="pt-5">
+           <p class="copywright-text"> Copyright &copy;All rights reserved | This template is made with <i class="icofont-heart"></i> by <a href="#" target="_blank">Colorlib</a></p>
+          </div>
+        </div>
+    </div>
   </div>
-  <div class="col-md-3 ">
-  <h2 class="footer-heading mb-4">Quick Links</h2>
-  <ul class="list-unstyled">
-  <li><a href="#">About Us</a></li>
-  <li><a href="#">Services</a></li>
-  <li><a href="#">Testimonials</a></li>
-  <li><a href="#">Contact Us</a></li>
-  </ul>
-  </div>
-  <div class="col-md-4">
-  <h2 class="footer-heading mb-4">Follow Us</h2>
-  <!-- <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-  <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-  <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-  <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a> -->
-  </div>
-  </div>
-  </div>
-  <div class="col-md-3 ml-auto">
-  <h2 class="footer-heading mb-4">Featured Product</h2>
-  <a href="#"><img src="images/shoe.webp" alt="Image" class="img-fluid mb-3"></a>
-  <h4 class="h5">Leather Brown Shoe</h4>
-  <strong class="text-black mb-3 d-inline-block">$60.00</strong>
-  <p><a href="#" class="btn btn-black rounded-0">Add to Cart</a></p>
-  </div>
-  </div>
-  <div class="row pt-5 mt-5 text-center">
-  <div class="col-md-12">
-  <div class="border-top pt-5">
-  <p>
-  
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  
-  </p>
-  </div>
-  </div>
-  </div>
-  </div>
-  </footer>
-  </div>
+</footer>
 
 <!------FOOTER STARTS-->
 
