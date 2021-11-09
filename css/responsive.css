@@ -186,8 +186,7 @@ Extra extra large	xxl	≥1400px
     }.p-5 {
         padding: 0;
     }
-    .buttons-one {
-        width: 62%;}
+    
     .footer {
          padding: 2.5em 0px;
     }
@@ -232,6 +231,8 @@ Extra extra large	xxl	≥1400px
         width: 300px;
         height: 100%;
     }
+    .buttons-one {
+        width: 62%;}
     .m-nav{
         display: flex;
         flex-direction: column;

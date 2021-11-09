@@ -62,3 +62,12 @@ navactive.forEach((n) =>{
     n.classList.add('active')
   })
 })
+
+
+
+
+
+
+
+
+

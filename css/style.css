@@ -102,9 +102,7 @@ body {
 }
   .mobile-toggle-trigger{
     display: block;
- }.mobile-toggle-trigger{
-  display: block;
-}
+ }
   /* SUB-HEADER SECTION ENDS*/
 
 
@@ -277,7 +275,7 @@ body {
 
 }
 .custom-card-2 .card-body .card-image-wrapper::before{
-  content: "";
+  
   width: 80%;
   height: 80%;
   position: absolute;
@@ -460,13 +458,13 @@ body {
 .portfolio-part{
   padding: 80px 0px;
 }
-.ml-auto{
+/* .ml-auto{
   margin-left: auto; 
   padding: 43px;
 }
 .mb-4{
   color: #999;
-}
+} */
 .merchant{
   position: absolute;
   bottom: -10px;
@@ -641,6 +639,24 @@ q {
 font-size: 18px;
 font-weight: 500;
 padding-top: 10px;}
+
+.carousel-image img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.carousel-item{
+  height: 360px;
+}
+.carousel-indicators [data-bs-target]{
+height: 10px;
+width: 10px;
+border-radius: 50%;
+}
+.carousel-dark .carousel-indicators [data-bs-target]
+{
+  background-color: #f16821;
+}
 
 /* SLIDESHOW ENDS */
 
